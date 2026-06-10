@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">Карта на България с покритие в Североизточна България</title>
+  <desc id="desc">Светлосива карта на България с жълти маркери за Добрич, Варна, Балчик, Каварна, Генерал Тошево, Силистра, Кранево и Албена.</desc>
+  <defs>
+    <filter id="pinGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.98 0 1 0 0 0.82 0 0 1 0 0.05 0 0 0 0.4 0"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f1720" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <path d="M62 123 89 98l35-6 29-21 50 8 40-10 59 5 48-8 64 12 54-9 56 11 64-7 51 25 10 31-12 23 11 35-14 29-6 28-21 30-36 26-33-3-28 13-38-7-40 13-39-11-35 14-33-11-31 9-29-19-28 6-24-16-31-9-21-20-10-28-17-17-15-47 3-38 13-34Z" fill="#e8edf3" stroke="#7d8896" stroke-width="5" filter="url(#shadow)"/>
+  <path d="M508 88c54-3 119 34 146 99 22 55 11 122-26 166-17 20-44 37-80 46l-21 1-28 13-38-7-40 13-39-11-10 4c-4-21 0-48 12-79 15-40 43-75 68-100 26-27 54-45 56-79Z" fill="#ffd000" opacity=".12"/>
+  <g fill="none" stroke="#cfd6de" stroke-linecap="round" stroke-linejoin="round" opacity=".64">
+    <path d="M150 104 197 136l63-10 53 19 58-5 53 19 56-17 44 18"/>
+    <path d="M122 178 184 216l69-4 61 23 70-19 56 16 58-17"/>
+    <path d="M182 286 250 272l50 30 82-16 67 18 54-20"/>
+  </g>
+  <g stroke="#ffd000" stroke-width="2.6" opacity=".42" stroke-linecap="round">
+    <path d="M520 38v40"/>
+    <path d="M518 34h18"/>
+    <path d="M575 98 520 38"/>
+  </g>
+  <g transform="translate(595 88)">
+    <circle r="24" fill="#ffd000" opacity=".2" filter="url(#pinGlow)"/>
+    <path d="M0 15s13-8 13-18.5A13 13 0 1 0-13-3.5C-13 7 0 15 0 15Z" fill="#ffd000"/>
+    <circle r="4.4" fill="#131821"/>
+  </g>
+  <g transform="translate(577 108)">
+    <circle r="22" fill="#ffd000" opacity=".18" filter="url(#pinGlow)"/>
+    <path d="M0 13s12-7.5 12-17A12 12 0 1 0-12-4C-12 5.5 0 13 0 13Z" fill="#ffd000"/>
+    <circle r="4.2" fill="#131821"/>
+  </g>
+  <g transform="translate(605 128)">
+    <circle r="22" fill="#ffd000" opacity=".18" filter="url(#pinGlow)"/>
+    <path d="M0 13s12-7.5 12-17A12 12 0 1 0-12-4C-12 5.5 0 13 0 13Z" fill="#ffd000"/>
+    <circle r="4.2" fill="#131821"/>
+  </g>
+  <g transform="translate(622 126)">
+    <circle r="20" fill="#ffd000" opacity=".16" filter="url(#pinGlow)"/>
+    <path d="M0 12s11-7 11-16A11 11 0 1 0-11-4C-11 5 0 12 0 12Z" fill="#ffd000"/>
+    <circle r="4" fill="#131821"/>
+  </g>
+  <g transform="translate(519 36)">
+    <circle r="24" fill="#ffd000" opacity=".2" filter="url(#pinGlow)"/>
+    <path d="M0 15s13-8 13-18.5A13 13 0 1 0-13-3.5C-13 7 0 15 0 15Z" fill="#ffd000"/>
+    <circle r="4.4" fill="#131821"/>
+  </g>
+  <g transform="translate(598 141)">
+    <circle r="19" fill="#ffd000" opacity=".14" filter="url(#pinGlow)"/>
+    <path d="M0 11s10.5-6.5 10.5-15A10.5 10.5 0 1 0-10.5-4C-10.5 4.8 0 11 0 11Z" fill="#ffd000"/>
+    <circle r="3.8" fill="#131821"/>
+  </g>
+  <g transform="translate(595 136)">
+    <circle r="19" fill="#ffd000" opacity=".14" filter="url(#pinGlow)"/>
+    <path d="M0 11s10.5-6.5 10.5-15A10.5 10.5 0 1 0-10.5-4C-10.5 4.8 0 11 0 11Z" fill="#ffd000"/>
+    <circle r="3.8" fill="#131821"/>
+  </g>
+  <g transform="translate(520 28)">
+    <circle r="19" fill="#ffd000" opacity=".14" filter="url(#pinGlow)"/>
+    <path d="M0 11s10.5-6.5 10.5-15A10.5 10.5 0 1 0-10.5-4C-10.5 4.8 0 11 0 11Z" fill="#ffd000"/>
+    <circle r="3.8" fill="#131821"/>
+  </g>
+</svg>
