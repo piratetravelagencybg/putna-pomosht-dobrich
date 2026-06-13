@@ -4702,6 +4702,37 @@ body {
 }
 
 @media (max-width: 479.98px) {
+  /* Equal columns + tighter padding so left col gets ~155px for text */
+  .story-card-kombi {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 18px 14px 16px;
+  }
+
+  /* Smaller h2 so "Допълнителна" fits on one line at ~155px */
+  .story-card-kombi h2 {
+    font-size: 19px;
+    max-width: none;
+    overflow-wrap: break-word;
+  }
+
+  /* Smaller description */
+  .story-card-kombi .story-copy > p {
+    font-size: 12.5px;
+    line-height: 1.38;
+  }
+
+  /* Shorter kicker line + smaller text */
+  .story-card-kombi .story-kicker {
+    font-size: 8.5px;
+    gap: 6px;
+  }
+
+  .story-card-kombi .story-kicker::before {
+    width: 20px;
+  }
+
+  /* Compact info cards to fit right col */
   .story-info-card {
     gap: 9px;
     padding: 10px 11px;
@@ -4734,9 +4765,5 @@ body {
 
   .story-bottom {
     grid-column: 1;
-  }
-
-  .story-info-cards {
-    margin-top: 0;
   }
 }
