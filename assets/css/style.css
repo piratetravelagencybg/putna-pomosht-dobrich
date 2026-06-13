@@ -4560,30 +4560,52 @@ body {
     linear-gradient(180deg, #fffdf0 0%, #fffcea 100%);
 }
 
-.story-card-kombi .story-visual .story-actions {
-  position: absolute;
-  right: 12px;
-  bottom: 18px;
-  z-index: 10;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
+/* Kombi head: text + van badge side-by-side */
+.story-kombi-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 4px;
 }
 
-.story-card-kombi .story-visual .story-actions .btn {
-  min-height: 46px;
-  padding: 0 18px;
+.story-kombi-badge {
+  flex: none;
+  width: 72px;
+  height: 72px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffd83d 0%, #ffd000 100%);
+  color: #111827;
+  box-shadow: 0 12px 28px rgba(255, 208, 0, 0.30);
+}
+
+.story-kombi-badge .icon {
+  width: 36px;
+  height: 36px;
+  stroke-width: 1.7;
+}
+
+.story-card-kombi .story-actions {
+  margin-top: 18px;
+}
+
+.story-card-kombi .story-actions .btn {
+  width: 100%;
+  min-height: 52px;
   border-radius: 999px;
-  font-size: 13.5px;
+  font-size: 14px;
   font-weight: 900;
+  justify-content: center;
   gap: 8px;
-  box-shadow: 0 10px 22px rgba(255, 208, 0, 0.28);
-  white-space: nowrap;
+  box-shadow: 0 12px 24px rgba(255, 208, 0, 0.26);
 }
 
-.story-card-kombi .story-visual .story-actions .btn .icon {
-  width: 16px;
-  height: 16px;
+.story-card-kombi .story-actions .btn .icon {
+  width: 17px;
+  height: 17px;
 }
 
 /* Info cards */
@@ -4646,15 +4668,20 @@ body {
 }
 
 @media (max-width: 479.98px) {
-  .story-card-kombi .story-visual .story-actions {
-    right: 10px;
-    bottom: 14px;
+  .story-kombi-badge {
+    width: 62px;
+    height: 62px;
+    border-radius: 18px;
   }
 
-  .story-card-kombi .story-visual .story-actions .btn {
-    min-height: 42px;
-    padding: 0 14px;
-    font-size: 12.5px;
+  .story-kombi-badge .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .story-card-kombi .story-actions .btn {
+    min-height: 48px;
+    font-size: 13.5px;
   }
 
   .story-info-card {
