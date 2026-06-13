@@ -4560,96 +4560,44 @@ body {
     linear-gradient(180deg, #fffdf0 0%, #fffcea 100%);
 }
 
-/* Kombi head: text + van badge side-by-side */
-.story-kombi-head {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 14px;
-  margin-bottom: 4px;
-}
-
-.story-kombi-badge {
-  flex: none;
-  width: 72px;
-  height: 72px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 22px;
-  background: linear-gradient(180deg, #ffd83d 0%, #ffd000 100%);
-  color: #111827;
-  box-shadow: 0 12px 28px rgba(255, 208, 0, 0.30);
-}
-
-.story-kombi-badge .icon {
-  width: 36px;
-  height: 36px;
-  stroke-width: 1.7;
-}
-
-.story-card-kombi .story-actions {
-  margin-top: 18px;
-}
-
-.story-card-kombi .story-actions .btn {
-  width: 100%;
-  min-height: 52px;
-  border-radius: 999px;
-  font-size: 14px;
-  font-weight: 900;
-  justify-content: center;
-  gap: 8px;
-  box-shadow: 0 12px 24px rgba(255, 208, 0, 0.26);
-}
-
-.story-card-kombi .story-actions .btn .icon {
-  width: 17px;
-  height: 17px;
-}
-
-/* Info cards */
+/* Info cards — white rounded cards */
 .story-info-cards {
   display: grid;
-  gap: 0;
-  margin-top: 4px;
-  margin-bottom: 0;
+  gap: 10px;
+  margin-top: 18px;
 }
 
 .story-info-card {
   display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 12px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-}
-
-.story-info-card:last-child {
-  border-bottom: 0;
-  padding-bottom: 4px;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.07);
 }
 
 .story-info-icon {
-  width: 36px;
-  height: 36px;
+  width: 42px;
+  height: 42px;
   flex: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
-  background: rgba(255, 208, 0, 0.14);
+  border-radius: 12px;
+  background: rgba(255, 208, 0, 0.18);
   color: #b88900;
 }
 
 .story-info-icon .icon {
-  width: 17px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
   stroke-width: 2;
 }
 
 .story-info-text {
   display: grid;
-  gap: 2px;
+  gap: 3px;
 }
 
 .story-info-text strong {
@@ -4667,32 +4615,105 @@ body {
   line-height: 1.4;
 }
 
+/* Bottom 2-col row: dark note card + yellow button */
+.story-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-items: stretch;
+  margin-top: 16px;
+}
+
+.story-card-kombi .story-note {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 14px;
+  background: #0b0f14;
+  border-radius: 18px;
+}
+
+.story-card-kombi .story-note .story-note-icon {
+  width: 34px;
+  height: 34px;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 208, 0, 0.15);
+  color: #ffd000;
+  margin-bottom: 2px;
+}
+
+.story-card-kombi .story-note .story-note-icon .icon {
+  width: 17px;
+  height: 17px;
+  stroke-width: 2;
+}
+
+.story-card-kombi .story-note strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.story-card-kombi .story-note p {
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+}
+
+.story-card-kombi .story-actions {
+  display: flex;
+  align-items: stretch;
+}
+
+.story-card-kombi .story-actions .btn {
+  width: 100%;
+  min-height: 90px;
+  border-radius: 18px;
+  font-size: 15px;
+  font-weight: 900;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  box-shadow: 0 12px 24px rgba(255, 208, 0, 0.30);
+  padding: 14px 10px;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.story-card-kombi .story-actions .btn .icon {
+  width: 20px;
+  height: 20px;
+}
+
 @media (max-width: 479.98px) {
-  .story-kombi-badge {
-    width: 62px;
-    height: 62px;
-    border-radius: 18px;
-  }
-
-  .story-kombi-badge .icon {
-    width: 30px;
-    height: 30px;
-  }
-
-  .story-card-kombi .story-actions .btn {
-    min-height: 48px;
-    font-size: 13.5px;
+  .story-info-cards {
+    gap: 8px;
+    margin-top: 14px;
   }
 
   .story-info-card {
-    gap: 10px;
-    padding: 10px 0;
+    padding: 12px 14px;
+    border-radius: 14px;
+    gap: 12px;
   }
 
   .story-info-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 9px;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+  }
+
+  .story-info-icon .icon {
+    width: 18px;
+    height: 18px;
   }
 
   .story-info-text strong {
@@ -4702,12 +4723,28 @@ body {
   .story-info-text span {
     font-size: 11.5px;
   }
-}
 
-@media (min-width: 768px) {
-  .story-card-kombi .story-visual .story-actions .btn {
-    min-height: 52px;
-    padding: 0 22px;
-    font-size: 15px;
+  .story-bottom {
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .story-card-kombi .story-note {
+    padding: 12px;
+    border-radius: 16px;
+  }
+
+  .story-card-kombi .story-note strong {
+    font-size: 12.5px;
+  }
+
+  .story-card-kombi .story-note p {
+    font-size: 11px;
+  }
+
+  .story-card-kombi .story-actions .btn {
+    min-height: 80px;
+    border-radius: 16px;
+    font-size: 14px;
   }
 }
