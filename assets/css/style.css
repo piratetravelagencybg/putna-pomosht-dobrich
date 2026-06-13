@@ -4553,7 +4553,10 @@ body {
   background: #fffdf0;
 }
 
+/* Обърнати колони: по-тясна вляво (текст), по-широка вдясно (карти) */
 .story-card-kombi {
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  align-items: start;
   background:
     radial-gradient(circle at top right, rgba(255, 208, 0, 0.14), transparent 30%),
     radial-gradient(circle at left center, rgba(255, 208, 0, 0.08), transparent 36%),
@@ -4563,65 +4566,66 @@ body {
 /* Info cards — white rounded cards */
 .story-info-cards {
   display: grid;
-  gap: 10px;
-  margin-top: 18px;
+  gap: 8px;
+  margin-top: 0;
 }
 
 .story-info-card {
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding: 14px 16px;
+  gap: 10px;
+  padding: 11px 12px;
   background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.07);
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
 }
 
 .story-info-icon {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
   flex: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 12px;
+  border-radius: 10px;
   background: rgba(255, 208, 0, 0.18);
   color: #b88900;
 }
 
 .story-info-icon .icon {
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   stroke-width: 2;
 }
 
 .story-info-text {
   display: grid;
-  gap: 3px;
+  gap: 2px;
+  min-width: 0;
 }
 
 .story-info-text strong {
   display: block;
-  font-size: 13.5px;
+  font-size: 12px;
   font-weight: 800;
   color: #111827;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .story-info-text span {
   display: block;
-  font-size: 12px;
+  font-size: 11px;
   color: #6b7280;
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
-/* Bottom 2-col row: dark note card + yellow button */
+/* Bottom row spans both card columns */
 .story-bottom {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-column: 1 / -1;
   gap: 12px;
   align-items: stretch;
-  margin-top: 16px;
 }
 
 .story-card-kombi .story-note {
@@ -4631,6 +4635,10 @@ body {
   padding: 14px;
   background: #0b0f14;
   border-radius: 18px;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  color: inherit;
 }
 
 .story-card-kombi .story-note .story-note-icon {
@@ -4694,39 +4702,9 @@ body {
 }
 
 @media (max-width: 479.98px) {
-  .story-info-cards {
-    gap: 8px;
-    margin-top: 14px;
-  }
-
   .story-info-card {
-    padding: 12px 14px;
-    border-radius: 14px;
-    gap: 12px;
-  }
-
-  .story-info-icon {
-    width: 38px;
-    height: 38px;
-    border-radius: 10px;
-  }
-
-  .story-info-icon .icon {
-    width: 18px;
-    height: 18px;
-  }
-
-  .story-info-text strong {
-    font-size: 13px;
-  }
-
-  .story-info-text span {
-    font-size: 11.5px;
-  }
-
-  .story-bottom {
-    gap: 10px;
-    margin-top: 14px;
+    gap: 9px;
+    padding: 10px 11px;
   }
 
   .story-card-kombi .story-note {
@@ -4746,5 +4724,19 @@ body {
     min-height: 80px;
     border-radius: 16px;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 389.98px) {
+  .story-card-kombi {
+    grid-template-columns: 1fr;
+  }
+
+  .story-bottom {
+    grid-column: 1;
+  }
+
+  .story-info-cards {
+    margin-top: 0;
   }
 }
