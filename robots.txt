@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://DOMAIN-HERE/sitemap.xml
+Sitemap: https://putnapomoshtsisi.com/sitemap.xml
 
 User-agent: GPTBot
 Allow: /
