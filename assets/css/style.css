@@ -4796,12 +4796,13 @@ main > .section:last-of-type {
   background: #0B0F14;
 }
 
+.map-container iframe {
+  pointer-events: none;
+}
+
 @media (max-width: 767.98px) {
   .map-section {
-    padding: 24px 12px 0;
-  }
-  .map-container iframe {
-    height: 220px;
+    display: none;
   }
 }
 
@@ -4827,53 +4828,56 @@ main > .section:last-of-type {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 24px 0 20px;
+  gap: 10px;
+  padding: 24px 16px 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.10);
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .social-links::before {
   content: "Последвайте ни";
-  width: 100%;
+  flex: 0 0 100%;
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255, 215, 0, 0.70);
-  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 6px;
 }
 
 .social-links a {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 6px;
-  width: 64px;
-  padding: 12px 8px 10px;
-  border-radius: 16px;
-  background: rgba(255, 215, 0, 0.10);
-  border: 1px solid rgba(255, 215, 0, 0.35);
+  gap: 8px;
+  padding: 11px 22px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
   text-decoration: none;
-  transition: background 0.2s, transform 0.18s, border-color 0.2s;
+  transition: opacity 0.2s, transform 0.18s;
+  border: none;
 }
+
+.social-links a:nth-child(1) { background: #1877F2; }
+.social-links a:nth-child(2) { background: #E1306C; }
+.social-links a:nth-child(3) { background: #111; border: 1px solid rgba(255,255,255,0.18); }
 
 .social-links a::after {
   content: attr(aria-label);
-  font-size: 10px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.70);
-  letter-spacing: 0.02em;
+}
+
+.social-links a svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
 }
 
 .social-links a:hover,
 .social-links a:focus-visible {
-  background: rgba(255, 215, 0, 0.22);
-  border-color: rgba(255, 215, 0, 0.60);
-  transform: scale(1.08);
+  opacity: 0.88;
+  transform: scale(1.05);
   outline: none;
 }
 
