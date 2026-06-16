@@ -2450,11 +2450,6 @@ main > .section:last-of-type {
   }
 }
 
-/* Home mockup alignment */
-body {
-  padding-bottom: calc(104px + env(safe-area-inset-bottom));
-}
-
 .site-header {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
 }
