@@ -1706,7 +1706,7 @@ main > .section:last-of-type {
   background:
     linear-gradient(180deg, rgba(255, 208, 0, 0.08), transparent 24%),
     #0a0d12;
-  padding: 44px 0 calc(150px + env(safe-area-inset-bottom));
+  padding: 44px 0 40px;
 }
 
 .footer-grid {
@@ -2772,7 +2772,7 @@ body {
 }
 
 .footer {
-  padding: 28px 0 calc(122px + env(safe-area-inset-bottom));
+  padding: 28px 0 calc(40px + env(safe-area-inset-bottom));
   background: #090d11;
 }
 
@@ -3646,7 +3646,7 @@ body {
   }
 
   .footer {
-    padding: 18px 0 calc(132px + env(safe-area-inset-bottom));
+    padding: 18px 0 calc(80px + env(safe-area-inset-bottom));
   }
 
   .footer-card {
