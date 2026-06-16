@@ -2396,6 +2396,10 @@ main > .section:last-of-type {
     padding: 36px 0;
   }
 
+  .content-grid {
+    gap: 32px;
+  }
+
   .container {
     width: min(calc(100% - 36px), var(--container));
   }
