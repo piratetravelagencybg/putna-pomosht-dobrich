@@ -2984,10 +2984,6 @@ main > .section:last-of-type {
 
 /* Mobile homepage repair */
 @media (max-width: 479.98px) {
-  body {
-    padding-bottom: calc(96px + env(safe-area-inset-bottom));
-  }
-
   .site-header {
     background: rgba(4, 6, 9, 0.98);
     backdrop-filter: blur(12px);
@@ -4819,30 +4815,43 @@ main > .section:last-of-type {
 }
 
 /* ── Social links ── */
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .social-links {
+  order: -1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+  padding: 22px 0 24px;
+  margin-bottom: 20px;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  padding: 20px 0 8px;
+  gap: 20px;
 }
 
 .social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 215, 0, 0.20);
   text-decoration: none;
-  transition: background 0.2s, transform 0.18s;
+  transition: background 0.2s, transform 0.18s, border-color 0.2s;
 }
 
 .social-links a:hover,
 .social-links a:focus-visible {
   background: rgba(255, 215, 0, 0.15);
-  transform: scale(1.12);
+  border-color: rgba(255, 215, 0, 0.50);
+  transform: scale(1.10);
   outline: none;
 }
 
