@@ -4796,16 +4796,6 @@ main > .section:last-of-type {
   background: #0B0F14;
 }
 
-.map-container iframe {
-  pointer-events: none;
-}
-
-@media (max-width: 767.98px) {
-  .map-section {
-    display: none;
-  }
-}
-
 .map-section h2 {
   text-align: center;
   color: #FFD700;
@@ -4821,6 +4811,16 @@ main > .section:last-of-type {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  pointer-events: none;
+}
+
+@media (max-width: 767.98px) {
+  .map-section {
+    padding: 20px 12px 0;
+  }
+  .map-container iframe {
+    height: 200px;
+  }
 }
 
 /* ── Social links ── */
@@ -4829,28 +4829,28 @@ main > .section:last-of-type {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  padding: 24px 16px 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.10);
-  margin-top: 24px;
+  padding: 28px 16px 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-top: 20px;
 }
 
 .social-links::before {
   content: "Последвайте ни";
   flex: 0 0 100%;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.45);
-  margin-bottom: 6px;
+  color: rgba(255, 255, 255, 0.40);
+  margin-bottom: 10px;
 }
 
 .social-links a {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 11px 22px;
+  padding: 12px 24px;
   border-radius: 50px;
   font-size: 14px;
   font-weight: 700;
@@ -4860,9 +4860,18 @@ main > .section:last-of-type {
   border: none;
 }
 
-.social-links a:nth-child(1) { background: #1877F2; }
-.social-links a:nth-child(2) { background: #E1306C; }
-.social-links a:nth-child(3) { background: #111; border: 1px solid rgba(255,255,255,0.18); }
+.social-links a[aria-label="Facebook"] {
+  background: #1877F2;
+}
+
+.social-links a[aria-label="Instagram"] {
+  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366);
+}
+
+.social-links a[aria-label="TikTok"] {
+  background: #111;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
 
 .social-links a::after {
   content: attr(aria-label);
@@ -4874,9 +4883,21 @@ main > .section:last-of-type {
   flex-shrink: 0;
 }
 
+.social-links a[aria-label="Facebook"] svg path,
+.social-links a[aria-label="TikTok"] svg path {
+  fill: #fff;
+}
+
+.social-links a[aria-label="Instagram"] svg rect,
+.social-links a[aria-label="Instagram"] svg path,
+.social-links a[aria-label="Instagram"] svg line {
+  stroke: #fff;
+  fill: none;
+}
+
 .social-links a:hover,
 .social-links a:focus-visible {
-  opacity: 0.88;
+  opacity: 0.85;
   transform: scale(1.05);
   outline: none;
 }
