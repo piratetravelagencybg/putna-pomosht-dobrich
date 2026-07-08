@@ -1,25 +1,45 @@
 # Пътна помощ СИСИ ЕООД
 
-> Пътна помощ 24/7 в Добрич, Варна, Североизточна България, България и Европа.
+> 24/7 roadside assistance and vehicle towing in Dobrich, Varna and Northeast Bulgaria.
 
-## Услуги
-- Репатриране на автомобили
-- Пътна помощ за микробуси
-- Пътна помощ за автобуси
-- Пътна помощ за камиони
-- Подаване на ток
-- Смяна на гума
-- Авто ключар
-- Кран услуги до 5400 кг
-- Транспортни услуги
+## Services
+- Репатриране (Towing): https://putnapomoshtsisi.com/repatrirane.html
+- Кран услуги: https://putnapomoshtsisi.com/kran-uslugi.html
+- Подаване на ток: https://putnapomoshtsisi.com/podavane-na-tok.html
+- Смяна на гума: https://putnapomoshtsisi.com/smqna-na-guma.html
+- Авто ключар: https://putnapomoshtsisi.com/avto-klyuchar.html
+- Транспортни услуги: https://putnapomoshtsisi.com/transportni-uslugi.html
+- Транспорт на контейнери и желязо: https://putnapomoshtsisi.com/transport-konteineri-jelqzo.html
+- Транспорт на земеделска техника: https://putnapomoshtsisi.com/transport-zemedelska-tehnika.html
+- Допълнителна услуга комби: https://putnapomoshtsisi.com/dopalnitelna-usluga-kombi.html
+- Пътна помощ за автобуси: https://putnapomoshtsisi.com/patna-pomosht-avtobusi.html
+- Пътна помощ за камиони: https://putnapomoshtsisi.com/patna-pomosht-kamioni.html
+- Пътна помощ за микробуси: https://putnapomoshtsisi.com/patna-pomosht-mikrobusi.html
 
-## Контакт
-Телефон: +359 896 66 13 19
-Viber: 0896 66 13 19
-WhatsApp: +359 896 66 13 19
+## Coverage
+- Добрич: https://putnapomoshtsisi.com/patna-pomosht-dobrich.html
+- Варна: https://putnapomoshtsisi.com/patna-pomosht-varna.html
+- Балчик: https://putnapomoshtsisi.com/patna-pomosht-balchik.html
+- Каварна: https://putnapomoshtsisi.com/patna-pomosht-kavarna.html
+- Генерал Тошево: https://putnapomoshtsisi.com/patna-pomosht-general-toshevo.html
+- Силистра: https://putnapomoshtsisi.com/patna-pomosht-silistra.html
+- Албена: https://putnapomoshtsisi.com/patna-pomosht-albena.html
+- Кранево: https://putnapomoshtsisi.com/patna-pomosht-kranevo.html
 
-## Райони
-Добрич, Варна, Генерал Тошево, Каварна, Балчик, Силистра, КК Албена, Кранево, България, Европа.
+## Contact
+- Телефон: +359896661319
+- Страница: https://putnapomoshtsisi.com/index.html#kontakt
 
-## За фирмата
-Пътна помощ „СИСИ“ ЕООД предлага 24/7 репатриране, кран услуги, подаване на ток, смяна на гума и транспортни услуги. Фирмата разполага с падаща платформа, лебедка и кран до 5400 кг.
+## About
+Пътна помощ СИСИ ЕООД е специализирана фирма за пътна помощ, репатриране и кран услуги в Добрич, Варна и Североизточна България. Работим 24 часа в денонощието, 7 дни в седмицата, включително по празници. Покриваме целия регион — от крайбрежните курорти Албена и Кранево до граничните преходи и трансграничен транспорт в България и Европа.
+
+## English
+- Homepage EN: https://putnapomoshtsisi.com/en/index.html
+- Towing EN: https://putnapomoshtsisi.com/en/towing.html
+- Dobrich EN: https://putnapomoshtsisi.com/en/roadside-assistance-dobrich.html
+- Varna EN: https://putnapomoshtsisi.com/en/roadside-assistance-varna.html
+- Albena EN: https://putnapomoshtsisi.com/en/roadside-assistance-albena.html
+- Kranevo EN: https://putnapomoshtsisi.com/en/roadside-assistance-kranevo.html
+- Balchik EN: https://putnapomoshtsisi.com/en/roadside-assistance-balchik.html
+- Kavarna EN: https://putnapomoshtsisi.com/en/roadside-assistance-kavarna.html
+- Contact EN: https://putnapomoshtsisi.com/en/contact.html
