@@ -1321,9 +1321,9 @@ function renderHome() {
           <div class="hero-location-box">
             <button class="btn btn-location hero-location-button" type="button" data-location-sms-trigger data-sms-number="+359896661319" aria-describedby="hero-location-status">
               ${icon("location")}
-              <span>Изпрати локация във Viber</span>
+              <span>Изпрати локация по SMS</span>
             </button>
-            <p class="hero-location-note">Ще поискаме достъп до вашата локация и ще отворим Viber с готово съобщение. Изберете чата на пътна помощ СИСИ и изпратете.</p>
+            <p class="hero-location-note">Ще поискаме достъп до вашата локация и ще отворим готов SMS към пътна помощ СИСИ.</p>
             <p class="hero-location-status" id="hero-location-status" data-location-sms-status aria-live="polite"></p>
           </div>
           <div class="hero-badges">${heroBadges}</div>

@@ -100,7 +100,11 @@
       }
     };
 
-    const buildViberHref = (message) => `viber://forward?text=${encodeURIComponent(message)}`;
+    const buildSmsHref = (number, message) => {
+      const isAppleDevice = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+      const separator = isAppleDevice ? "&" : "?";
+      return `sms:${number}${separator}body=${encodeURIComponent(message)}`;
+    };
 
     locationSmsTrigger.addEventListener("click", () => {
       const smsNumber = locationSmsTrigger.getAttribute("data-sms-number") || "+359896661319";
@@ -126,8 +130,8 @@
             `Google Maps: ${mapsLink}`
           ].filter(Boolean).join("\n");
 
-          setLocationStatus("Отваряме Viber с готова локация...", "is-success");
-          window.location.href = buildViberHref(message);
+          setLocationStatus("Отваряме SMS приложението с готова локация...", "is-success");
+          window.location.href = buildSmsHref(smsNumber, message);
 
           window.setTimeout(() => {
             locationSmsTrigger.disabled = false;
@@ -137,7 +141,7 @@
           let message = "Не успяхме да вземем текущата ви локация.";
 
           if (error.code === 1) {
-            message = "Разрешете достъп до локацията, за да подготвим Viber съобщение с позицията ви.";
+            message = "Разрешете достъп до локацията, за да подготвим SMS с позицията ви.";
           } else if (error.code === 2) {
             message = "Локацията не можа да бъде определена. Опитайте отново след малко.";
           } else if (error.code === 3) {
