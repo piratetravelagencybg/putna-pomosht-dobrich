@@ -4904,3 +4904,64 @@ main > .section:last-of-type {
   font-weight: 700;
   letter-spacing: 0.01em;
 }
+
+.btn-location {
+  color: #fff;
+  background: linear-gradient(180deg, rgba(255, 208, 0, 0.18) 0%, rgba(255, 208, 0, 0.1) 100%);
+  border: 1px solid rgba(255, 208, 0, 0.42);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+
+.btn-location:hover,
+.btn-location:focus-visible {
+  background: linear-gradient(180deg, rgba(255, 208, 0, 0.26) 0%, rgba(255, 208, 0, 0.14) 100%);
+  border-color: rgba(255, 208, 0, 0.62);
+}
+
+.hero-location-box {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+.hero-location-button {
+  width: 100%;
+  justify-content: center;
+}
+
+.hero-location-note,
+.hero-location-status {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.hero-location-note {
+  color: rgba(255, 255, 255, 0.72);
+  max-width: 34ch;
+}
+
+.hero-location-status {
+  min-height: 1.45em;
+  font-weight: 700;
+  color: rgba(255, 208, 0, 0.96);
+}
+
+.hero-location-status.is-loading {
+  color: rgba(255, 208, 0, 0.96);
+}
+
+.hero-location-status.is-success {
+  color: #9ff0b8;
+}
+
+.hero-location-status.is-error {
+  color: #ffb8b8;
+}
+
+@media (min-width: 900px) {
+  .hero-location-box {
+    max-width: 430px;
+  }
+}

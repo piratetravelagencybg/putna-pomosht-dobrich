@@ -12,6 +12,8 @@
   const yearNode = document.querySelector("[data-current-year]");
   const mobileSticky = document.querySelector(".mobile-sticky");
   const hero = document.querySelector(".hero");
+  const locationSmsTrigger = document.querySelector("[data-location-sms-trigger]");
+  const locationSmsStatus = document.querySelector("[data-location-sms-status]");
 
   const closeNav = () => {
     if (!toggle || !nav) {
@@ -84,6 +86,74 @@
 
   if (yearNode) {
     yearNode.textContent = String(new Date().getFullYear());
+  }
+
+  if (locationSmsTrigger) {
+    const setLocationStatus = (message, state = "") => {
+      if (!locationSmsStatus) {
+        return;
+      }
+      locationSmsStatus.textContent = message;
+      locationSmsStatus.classList.remove("is-loading", "is-error", "is-success");
+      if (state) {
+        locationSmsStatus.classList.add(state);
+      }
+    };
+
+    const buildViberHref = (message) => `viber://forward?text=${encodeURIComponent(message)}`;
+
+    locationSmsTrigger.addEventListener("click", () => {
+      const smsNumber = locationSmsTrigger.getAttribute("data-sms-number") || "+359896661319";
+
+      if (!("geolocation" in navigator)) {
+        setLocationStatus("Това устройство не поддържа автоматично споделяне на локация.", "is-error");
+        return;
+      }
+
+      locationSmsTrigger.disabled = true;
+      setLocationStatus("Извличаме текущата ви локация...", "is-loading");
+
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const lat = position.coords.latitude.toFixed(6);
+          const lng = position.coords.longitude.toFixed(6);
+          const accuracy = Math.round(position.coords.accuracy || 0);
+          const mapsLink = `https://maps.google.com/?q=${lat},${lng}`;
+          const message = [
+            `Спешно, закъсал/а съм. Моля за пътна помощ на ${smsNumber}.`,
+            `Координати: ${lat}, ${lng}`,
+            accuracy ? `Точност: около ${accuracy} м` : "",
+            `Google Maps: ${mapsLink}`
+          ].filter(Boolean).join("\n");
+
+          setLocationStatus("Отваряме Viber с готова локация...", "is-success");
+          window.location.href = buildViberHref(message);
+
+          window.setTimeout(() => {
+            locationSmsTrigger.disabled = false;
+          }, 1200);
+        },
+        (error) => {
+          let message = "Не успяхме да вземем текущата ви локация.";
+
+          if (error.code === 1) {
+            message = "Разрешете достъп до локацията, за да подготвим Viber съобщение с позицията ви.";
+          } else if (error.code === 2) {
+            message = "Локацията не можа да бъде определена. Опитайте отново след малко.";
+          } else if (error.code === 3) {
+            message = "Заявката за локация изтече. Опитайте отново.";
+          }
+
+          setLocationStatus(message, "is-error");
+          locationSmsTrigger.disabled = false;
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 15000,
+          maximumAge: 0
+        }
+      );
+    });
   }
 
   if (mobileSticky) {
