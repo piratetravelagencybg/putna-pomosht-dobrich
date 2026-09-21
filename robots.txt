@@ -16,4 +16,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://putnapomoshtsisi.com/sitemap.xml
+Sitemap: https://www.putnapomoshtsisi.com/sitemap.xml

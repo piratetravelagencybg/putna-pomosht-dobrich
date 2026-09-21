@@ -1,0 +1,11 @@
+# Publish the website, not internal audit notes or maintenance scripts.
+.git/
+.agents/
+.codex/
+.claude/
+node_modules/
+tools/
+SEO_REBUILD_PLAN.md
+SEO_REBUILD_PROGRESS.md
+SEO_INFORMATION_ARCHITECTURE.md
+SEO_PHASE4_DOBRICH.md

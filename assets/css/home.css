@@ -1,0 +1,18 @@
+/* Original responsive design is supplied by unchanged style.css.
+   Keep only the location dialog and non-visual accessibility fixes here. */
+.home-location-dialog { width: min(560px, calc(100% - 28px)); max-height: calc(100dvh - 32px); padding: 28px; border: 1px solid #596674; border-radius: 18px; background: #11171e; color: #fff; }
+.home-location-dialog::backdrop { background: rgb(0 0 0 / .75); }
+.home-dialog-header { display: flex; justify-content: space-between; align-items: start; gap: 16px; }
+.home-dialog-header h2 { margin: 6px 0 0; font-size: 25px; line-height: 1.2; }
+.home-dialog-close { display: grid; place-items: center; flex: 0 0 44px; width: 44px; height: 44px; color: #fff; border: 1px solid #596674; background: transparent; border-radius: 8px; font-size: 26px; }
+.home-location-dialog p { color: #c9d2db; font-size: 16px; line-height: 1.6; }
+.home-location-dialog .btn { width: 100%; min-height: 52px; border-radius: 10px; white-space: normal; font-size: 16px; text-align: center; }
+.home-location-dialog label { display: block; font-size: 14px; margin: 16px 0 8px; }
+.home-location-dialog input { width: 100%; min-height: 48px; font-size: 16px; padding: 10px; color: #fff; background: #202833; border: 1px solid #87929e; border-radius: 8px; }
+.home-location-dialog [role=status] { min-height: 26px; color: #ffd000; }
+.home-location-dialog .home-location-options { display: grid; gap: 10px; margin-top: 16px; }
+.home-location-dialog [hidden] { display: none !important; }
+.home-location-dialog a:not(.btn) { text-decoration: underline; text-underline-offset: 4px; }
+.home-location-dialog button:disabled { opacity: .65; cursor: wait; }
+
+:is(a, button, summary, input):focus-visible { outline: 3px solid #ffd000; outline-offset: 3px; }

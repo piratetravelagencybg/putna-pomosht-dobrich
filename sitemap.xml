@@ -4,268 +4,210 @@
 
   <!-- Homepage priority 1.0 -->
   <url>
-    <loc>https://putnapomoshtsisi.com/index.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/index.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/index.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.putnapomoshtsisi.com/"/>
   </url>
 
   <!-- Service pages priority 0.8 -->
   <url>
-    <loc>https://putnapomoshtsisi.com/repatrirane.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/repatrirane.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/repatrirane.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/towing.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/repatrirane.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/towing.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/kran-uslugi.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/kran-uslugi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/kran-uslugi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/kran-uslugi.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/podavane-na-tok.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/podavane-na-tok.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/podavane-na-tok.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/podavane-na-tok.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/smqna-na-guma.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/smqna-na-guma.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/smqna-na-guma.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/smqna-na-guma.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/avto-klyuchar.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/avto-klyuchar.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/avto-klyuchar.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/avto-klyuchar.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/transportni-uslugi.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/transportni-uslugi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/transportni-uslugi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/transportni-uslugi.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/dopalnitelna-usluga-kombi.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/dopalnitelna-usluga-kombi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/dopalnitelna-usluga-kombi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/dopalnitelna-usluga-kombi.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-kamioni.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-kamioni.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-kamioni.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-kamioni.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-mikrobusi.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-mikrobusi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-mikrobusi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-mikrobusi.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-avtobusi.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-avtobusi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-avtobusi.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-avtobusi.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/transport-konteineri-jelqzo.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/transport-konteineri-jelqzo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/transport-konteineri-jelqzo.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/transport-konteineri-jelqzo.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/transport-zemedelska-tehnika.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/transport-zemedelska-tehnika.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/transport-zemedelska-tehnika.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/transport-zemedelska-tehnika.html"/>
   </url>
 
   <!-- City pages priority 0.8 -->
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-dobrich.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-dobrich.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-dobrich.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-dobrich.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-dobrich.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-dobrich.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-varna.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-varna.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-varna.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-varna.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-varna.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-varna.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-balchik.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-balchik.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-balchik.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-balchik.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-balchik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-balchik.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-kavarna.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-kavarna.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-kavarna.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-kavarna.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-kavarna.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-kavarna.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-general-toshevo.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-general-toshevo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-general-toshevo.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-general-toshevo.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-silistra.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-silistra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-silistra.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-silistra.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-albena.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-albena.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-albena.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-albena.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-albena.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-albena.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/patna-pomosht-kranevo.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/patna-pomosht-kranevo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-kranevo.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-kranevo.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-kranevo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-kranevo.html"/>
   </url>
 
   <!-- EN pages priority 0.7 -->
   <url>
-    <loc>https://putnapomoshtsisi.com/en/index.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/index.html"/>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/index.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.putnapomoshtsisi.com/"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/en/towing.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/towing.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/towing.html"/>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/repatrirane.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/towing.html"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/repatrirane.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/en/roadside-assistance-dobrich.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/roadside-assistance-dobrich.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-dobrich.html"/>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-dobrich.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-dobrich.html"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-dobrich.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/en/roadside-assistance-varna.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/roadside-assistance-varna.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-varna.html"/>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-varna.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-varna.html"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-varna.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/en/roadside-assistance-albena.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/roadside-assistance-albena.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-albena.html"/>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-albena.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-albena.html"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-albena.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/en/roadside-assistance-kranevo.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/roadside-assistance-kranevo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-kranevo.html"/>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-kranevo.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-kranevo.html"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-kranevo.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/en/roadside-assistance-balchik.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/roadside-assistance-balchik.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-balchik.html"/>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-balchik.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-balchik.html"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-balchik.html"/>
   </url>
   <url>
-    <loc>https://putnapomoshtsisi.com/en/roadside-assistance-kavarna.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/roadside-assistance-kavarna.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/roadside-assistance-kavarna.html"/>
-    <xhtml:link rel="alternate" hreflang="bg" href="https://putnapomoshtsisi.com/patna-pomosht-kavarna.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/roadside-assistance-kavarna.html"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.putnapomoshtsisi.com/patna-pomosht-kavarna.html"/>
   </url>
 
   <!-- Contact EN priority 0.6 -->
   <url>
-    <loc>https://putnapomoshtsisi.com/en/contact.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://www.putnapomoshtsisi.com/en/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://putnapomoshtsisi.com/en/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://putnapomoshtsisi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.putnapomoshtsisi.com/en/contact.html"/>
   </url>
 
 </urlset>

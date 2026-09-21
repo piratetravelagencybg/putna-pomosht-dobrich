@@ -1,0 +1,17 @@
+/* Dobrich-only usability; existing palette, typography, layout and shared CSS stay intact. */
+.dobrich-page .dobrich-hero-heading { font-size: 1.42rem; }
+.dobrich-page .page-hero-copy { min-width: 0; width: 100%; }
+.dobrich-page .page-hero-copy p { max-width: 100%; }
+.dobrich-page .page-hero-copy .button-row { min-width: 0; display: flex; flex-wrap: wrap; }
+.dobrich-page .content-block .btn { max-width: 100%; white-space: normal; text-align: center; }
+.dobrich-page .dobrich-steps { padding-left: 1.4em; display: grid; gap: 16px; line-height: 1.65; }
+.dobrich-page .content-block .button-row { margin-block: 20px; }
+.dobrich-page .dobrich-services { display: grid; gap: 20px; }
+.dobrich-page .dobrich-faq-heading { margin: 0; font: inherit; }
+.dobrich-page .content-block a:not(.btn) { text-decoration: underline; text-underline-offset: 3px; }
+.dobrich-page .page-hero .btn { white-space: normal; min-height: 48px; text-align: center; }
+.dobrich-page .page-hero-media img { object-position: center 60%; }
+.dobrich-page .content-photo img { width: 100%; height: auto; object-fit: contain; }
+.dobrich-page .mobile-sticky { opacity: 1; visibility: visible; transform: none; pointer-events: auto; }
+@media (min-width: 768px) { .dobrich-page .dobrich-services { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 479px) { .dobrich-page .page-hero-copy .button-row { display: grid; grid-template-columns: minmax(0, 1fr); } }

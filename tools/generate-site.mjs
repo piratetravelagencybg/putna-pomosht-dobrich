@@ -1,6 +1,14 @@
 import fs from "node:fs";
 import path from "node:path";
 
+// Legacy templates do not include the current English pages and later edits.
+// Fail before any write: never use this script as the production build command.
+throw new Error(
+  "Legacy generator disabled to protect the current site. " +
+  "Edit the existing HTML in reviewed batches and run tools/check-seo.py. " +
+  "See SEO_REBUILD_PLAN.md before restoring any generation workflow."
+);
+
 const root = process.cwd();
 const domain = "https://DOMAIN-HERE";
 const today = "2026-05-25";
